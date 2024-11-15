@@ -1,0 +1,21 @@
+# Ignore unnecessary or auto-generated files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# Ignore project settings (optional, if you don't want to share editor configs)
+**/ProjectSettings/EditorBuildSettings.asset
+**/ProjectSettings/EditorSettings.asset
+
+# Include essential files for collaboration
+!Assets/
+!ProjectSettings/
+!Packages/
+
+# Include scene and script files
+!Assets/**/*.unity
+!Assets/**/*.cs
